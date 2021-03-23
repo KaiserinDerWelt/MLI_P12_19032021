@@ -1,5 +1,6 @@
 import React from 'react';
 import Topmenu from './menu/Topmenu';
+import Sidebarleft from './sidebar/Sidebarleft';
 
 class Dashboard extends React.Component{
     render(){
@@ -8,6 +9,7 @@ class Dashboard extends React.Component{
        <div className="container-fluid">
            {/*Calling components here*/}
            <Topmenu />
+           <Sidebarleft />
        </div>
             </>
         )
