@@ -5,13 +5,14 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
+import Dashboard from './components/Dashboard';
 
 ReactDOM.render(
   <Router>
   <div>
     <Switch>
         {/* Pages*/}
-        
+        <Route exact path="/" component={Dashboard} />
       </Switch>
   </div>
 </Router>,
