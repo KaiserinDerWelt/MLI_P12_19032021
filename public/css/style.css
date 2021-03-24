@@ -257,3 +257,28 @@ div.scrollmenu a {
 .barsChartMain {
     background-color: #F9F9F9;
 }
+
+/*Mini Charts */
+
+.individualChartsContainer{
+    background-color: #EDEDED;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.averageContainer{
+    background-color: #FF0101;
+    width: 210px;
+    height: 210px;
+}
+
+.intensityContainer{
+    background-color:#282D30;
+    width: 210px;
+    height: 210px;
+}
+.scoreContainer{
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 210px;
+}
