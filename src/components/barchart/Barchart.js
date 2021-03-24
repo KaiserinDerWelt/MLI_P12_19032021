@@ -16,9 +16,6 @@ class Barchart extends React.Component {
                     </div>
                     <div className="barsChartMain">
                         <h2>HERE IT GOES THE CHART</h2>
-                        <h2>HERE IT GOES THE CHART</h2>
-                        <h2>HERE IT GOES THE CHART</h2>
-                        <h2>HERE IT GOES THE CHART</h2>
                     </div>
                     <div className="individualChartsContainer">
                         <div className="row">
