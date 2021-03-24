@@ -43,7 +43,7 @@ div.scrollmenu a {
     align-items: center !important;
     flex-direction: column;
     justify-content: center !important;
-    padding-top: 55px;
+    padding-top: 154px;
 }
 
 .vertical-menu a {
@@ -88,7 +88,7 @@ div.scrollmenu a {
     height: 60px;
     margin-top: 35px;
     margin-left: 45px !important;
-    margin-bottom: 35px;
+    margin-bottom: 75px;
 
 }
 
@@ -103,6 +103,7 @@ div.scrollmenu a {
 .emojiText {
     color: #000000;
     width: 95% !important;
+    font-size: 20px;
 }
 
 /*Dashboard items*/
@@ -165,9 +166,6 @@ div.scrollmenu a {
     line-height: 0px;
 }
 
-.barsChartMain {
-    background-color: #FF0101;
-}
 
 .speedChart {
     display: flex;
@@ -197,33 +195,43 @@ div.scrollmenu a {
 }
 
 
-.btnCalories{
+.btnRightPanel.energy{
 border-radius: 6px;
-background-color: pink !important;
+background-color: #FFF0F2 !important;
 margin-bottom: 50px !important;
+width: 54px;
+height: 54px;
 }
 
-.btnProteins{
+.btnRightPanel.chicken{
     border-radius: 6px;
-    background-color: pink !important;
+    background-color: #DEEFF5 !important;
     margin-bottom: 50px !important;
+    width: 54px;
+    height: 54px;
     }
 
-    .btnCarbs{
+    .btnRightPanel.burger{
         border-radius: 6px;
-        background-color: pink !important;
+        background-color: #FFF0F2  !important;
         margin-bottom: 50px !important;
+        width: 54px;
+        height: 54px;
         }
-    
-        .btnLipids{
+
+        .btnRightPanel.apple{
             border-radius: 6px;
-            background-color: pink !important;
+            background-color: #FFFFEC !important;
             margin-bottom: 50px !important;
+            width: 54px;
+            height: 54px;
             }
+            
+
         
 .valueIndicator{
     color: #000000;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 10px;
     font-weight: 500;
     font-style: normal;
@@ -231,9 +239,21 @@ margin-bottom: 50px !important;
 
 .nameIndicator{
     color: #000000;
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 10px;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    line-height: 0px;
+    line-height: 0px !important;
+    margin-top: -10px !important;
+}
+
+.buttonImgRightPanel{
+    height: 25px;
+    width: 25px;
+    margin-top: 8px;
+}
+
+
+.barsChartMain{
+    background-color: #F9F9F9;
 }
