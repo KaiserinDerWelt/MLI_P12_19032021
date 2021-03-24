@@ -5,14 +5,60 @@ class Rightpanelmetric extends React.Component {
         return (
             <>
                 <div className="rightPanelContainer">
-                    <div class="row">
-                        <div class="col-12 caloriesIndicator">A</div>
-                        <div class="w-100"></div>
-                        <div class="col-12 proteinsIndicator">B</div>
-                        <div class="w-100"></div>
-                        <div class="col-12 carbsIndicator">C</div>
-                        <div class="w-100"></div>
-                        <div class="col-12 lipidsIndicator">D</div>
+                    <div className="row">
+                        <div className="col-12 caloriesIndicator">
+                            <div className="row">
+                                <div className="col-3">
+                                <a className="btn btnCalories" href="#" role="button">
+                    <img className="buttonImg" src="./img/Yoga.png" alt="yoga-img" />
+                </a>
+                                </div>
+                                <div className="col-9">
+                                    <p className="valueIndicator">1,930 Kcal</p>
+                                    <p className="nameIndicator">Calories</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-100"></div>
+                        <div className="col-12 proteinsIndicator">
+                        <div className="row">
+                                <div className="col-3">
+                                <a className="btn btnProteins" href="#" role="button">
+                    <img className="buttonImg" src="./img/Yoga.png" alt="yoga-img" />
+                </a>
+                                </div>
+                                <div className="col-9">
+                                    <p className="valueIndicator">155g</p>
+                                    <p className="nameIndicator">Proteins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-100"></div>
+                        <div className="col-12 carbsIndicator">
+                        <div className="row">
+                                <div className="col-3">
+                                <a className="btn btnCarbs" href="#" role="button">
+                    <img className="buttonImg" src="./img/Yoga.png" alt="yoga-img" />
+                </a>
+                                </div>
+                                <div className="col-9">
+                                    <p className="valueIndicator">290g</p>
+                                    <p className="nameIndicator">Carbs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-100"></div>
+                        <div className="col-12 lipidsIndicator">
+                        <div className="row">
+                                <div className="col-3"> <a className="btn btnLipids" href="#" role="button">
+                    <img className="buttonImg" src="./img/Yoga.png" alt="yoga-img" />
+                </a></div>
+                                <div className="col-9">
+                                    <p className="valueIndicator">50g</p>
+                                    <p className="nameIndicator">Lipids</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </>
