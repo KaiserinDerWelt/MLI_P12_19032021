@@ -195,41 +195,41 @@ div.scrollmenu a {
 }
 
 
-.btnRightPanel.energy{
-border-radius: 6px;
-background-color: #FFF0F2 !important;
-margin-bottom: 50px !important;
-width: 54px;
-height: 54px;
+.btnRightPanel.energy {
+    border-radius: 6px;
+    background-color: #FFF0F2 !important;
+    margin-bottom: 50px !important;
+    width: 54px;
+    height: 54px;
 }
 
-.btnRightPanel.chicken{
+.btnRightPanel.chicken {
     border-radius: 6px;
     background-color: #DEEFF5 !important;
     margin-bottom: 50px !important;
     width: 54px;
     height: 54px;
-    }
+}
 
-    .btnRightPanel.burger{
-        border-radius: 6px;
-        background-color: #FFF0F2  !important;
-        margin-bottom: 50px !important;
-        width: 54px;
-        height: 54px;
-        }
+.btnRightPanel.burger {
+    border-radius: 6px;
+    background-color: #FFF0F2 !important;
+    margin-bottom: 50px !important;
+    width: 54px;
+    height: 54px;
+}
 
-        .btnRightPanel.apple{
-            border-radius: 6px;
-            background-color: #FFFFEC !important;
-            margin-bottom: 50px !important;
-            width: 54px;
-            height: 54px;
-            }
-            
+.btnRightPanel.apple {
+    border-radius: 6px;
+    background-color: #FFFFEC !important;
+    margin-bottom: 50px !important;
+    width: 54px;
+    height: 54px;
+}
 
-        
-.valueIndicator{
+
+
+.valueIndicator {
     color: #000000;
     font-size: 20px;
     margin-right: 10px;
@@ -237,7 +237,7 @@ height: 54px;
     font-style: normal;
 }
 
-.nameIndicator{
+.nameIndicator {
     color: #000000;
     font-size: 12px;
     margin-right: 10px;
@@ -247,13 +247,13 @@ height: 54px;
     margin-top: -10px !important;
 }
 
-.buttonImgRightPanel{
+.buttonImgRightPanel {
     height: 25px;
     width: 25px;
     margin-top: 8px;
 }
 
 
-.barsChartMain{
+.barsChartMain {
     background-color: #F9F9F9;
 }

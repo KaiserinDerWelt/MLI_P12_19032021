@@ -9,9 +9,9 @@ class Rightpanelmetric extends React.Component {
                         <div className="col-12 caloriesIndicator">
                             <div className="row">
                                 <div className="col-3">
-                                <a className="btn btnRightPanel energy" href="#" role="button">
-                    <img className="buttonImgRightPanel" src="./img/energy.png" alt="energy-img" />
-                </a>
+                                    <a className="btn btnRightPanel energy" href="#" role="button">
+                                        <img className="buttonImgRightPanel" src="./img/energy.png" alt="energy-img" />
+                                    </a>
                                 </div>
                                 <div className="col-9">
                                     <p className="valueIndicator">1,930 Kcal</p>
@@ -21,11 +21,11 @@ class Rightpanelmetric extends React.Component {
                         </div>
                         <div className="w-100"></div>
                         <div className="col-12 proteinsIndicator">
-                        <div className="row">
+                            <div className="row">
                                 <div className="col-3">
-                                <a className="btn btnRightPanel chicken" href="#" role="button">
-                    <img className="buttonImgRightPanel" src="./img/chicken.png" alt="chicken-img" />
-                </a>
+                                    <a className="btn btnRightPanel chicken" href="#" role="button">
+                                        <img className="buttonImgRightPanel" src="./img/chicken.png" alt="chicken-img" />
+                                    </a>
                                 </div>
                                 <div className="col-9">
                                     <p className="valueIndicator">155g</p>
@@ -35,11 +35,11 @@ class Rightpanelmetric extends React.Component {
                         </div>
                         <div className="w-100"></div>
                         <div className="col-12 carbsIndicator">
-                        <div className="row">
+                            <div className="row">
                                 <div className="col-3">
-                                <a className="btn btnRightPanel apple" href="#" role="button">
-                    <img className="buttonImgRightPanel" src="./img/apple.png" alt="apple-img" />
-                </a>
+                                    <a className="btn btnRightPanel apple" href="#" role="button">
+                                        <img className="buttonImgRightPanel" src="./img/apple.png" alt="apple-img" />
+                                    </a>
                                 </div>
                                 <div className="col-9">
                                     <p className="valueIndicator">290g</p>
@@ -49,10 +49,10 @@ class Rightpanelmetric extends React.Component {
                         </div>
                         <div className="w-100"></div>
                         <div className="col-12 lipidsIndicator">
-                        <div className="row">
+                            <div className="row">
                                 <div className="col-3"> <a className="btn btnRightPanel burger" href="#" role="button">
-                    <img className="buttonImgRightPanel" src="./img/cheeseburger.png" alt="cheeseburger-img" />
-                </a></div>
+                                    <img className="buttonImgRightPanel" src="./img/cheeseburger.png" alt="cheeseburger-img" />
+                                </a></div>
                                 <div className="col-9">
                                     <p className="valueIndicator">50g</p>
                                     <p className="nameIndicator">Lipids</p>
