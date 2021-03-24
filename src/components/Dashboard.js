@@ -10,7 +10,14 @@ class Dashboard extends React.Component {
                 <div className="container-fluid">
                     {/*Calling components here*/}
                     <Topmenu />
-                    <Sidebarleft />
+                    <div className="container-fluid containerGraphics">
+                        <div className="row">
+                            <div className="col-1 sideContainer"><Sidebarleft /></div>
+                            <div className="col-11 dashboardContainer">
+                              <Welcome />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </>
         )
