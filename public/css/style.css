@@ -44,6 +44,7 @@ div.scrollmenu a {
     flex-direction: column;
     justify-content: center !important;
     padding-top: 154px;
+    padding-bottom: 118px;
 }
 
 .vertical-menu a {
@@ -76,7 +77,7 @@ div.scrollmenu a {
     text-align: center;
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
-    margin-top: 30px;
+    margin-top: 90px;
     margin-bottom: 30px;
 }
 
